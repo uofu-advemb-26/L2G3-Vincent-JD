@@ -800,6 +800,1026 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_stat
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/class/video/video_device.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_control.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/dcd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/systick.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/systick.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/alloca.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/machine/stdlib.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/stdlib.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/lib/tinyusb/src/tusb.c.o: /home/vincent/pico-sdk/lib/tinyusb/src/tusb.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
 test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/common/hardware_claim/claim.c.o: /home/vincent/pico-sdk/src/common/hardware_claim/claim.c \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
@@ -3366,6 +4386,41 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_double/doub
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /home/vincent/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
 test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /home/vincent/pico-sdk/src/rp2_common/pico_flash/flash.c \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
@@ -4027,23 +5082,16 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_stdio/stdio
   /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
   /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
-  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
-  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
   /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
-  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
-  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
   /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
-  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
   /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
-  /home/vincent/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
   /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
   /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
-  /home/vincent/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
@@ -4051,7 +5099,7 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_stdio/stdio
   /home/vincent/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
-  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/assert.h \
@@ -4062,6 +5110,181 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_stdio/stdio
   /usr/include/newlib/stdio.h \
   /usr/include/newlib/string.h \
   /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/systick.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset_config.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset_tusb.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
   /usr/include/newlib/sys/_locale.h \
   /usr/include/newlib/sys/_types.h \
   /usr/include/newlib/sys/cdefs.h \
@@ -4089,6 +5312,10 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_stdlib/stdl
   /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
   /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
   /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
+  /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
   /home/vincent/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
   /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
   /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
@@ -4127,7 +5354,7 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_stdlib/stdl
   /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/assert.h \
@@ -4246,6 +5473,98 @@ test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_unique_id/u
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
   /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
 
+test/CMakeFiles/mytest.dir/home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/usb_reset.c.o: /home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/usb_reset.c \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  include/FreeRTOSConfig.h \
+  include/FreeRTOSConfig_examples_common.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h \
+  lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb.h \
+  /home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h \
+  /home/vincent/pico-sdk/src/boards/include/boards/pico_w.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /home/vincent/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /home/vincent/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h \
+  /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /home/vincent/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h \
+  /home/vincent/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /home/vincent/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset_config.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset_tusb.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/inttypes.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/_intsup.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/sys/string.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h \
+  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h
+
 test/CMakeFiles/mytest.dir/test.c.o: test/test.c \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
@@ -4300,7 +5619,7 @@ test/CMakeFiles/mytest.dir/test.c.o: test/test.c \
   /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
-  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
+  /home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
   /usr/include/newlib/_ansi.h \
   /usr/include/newlib/_newlib_version.h \
   /usr/include/newlib/assert.h \
@@ -4355,23 +5674,23 @@ lib/unity/src/unity_internals.h:
 
 test/test.c:
 
+/home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/usb_reset.c:
+
 /home/vincent/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_thread_local/include/picotls.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 
-/home/vincent/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h:
+/home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset_tusb.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset_config.h:
+
+/home/vincent/pico-sdk/src/common/pico_usb_reset_interface_headers/include/pico/usb_reset_interface.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio/driver.h:
-
-/home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/panic.c:
 
@@ -4401,8 +5720,6 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_logging.h:
 
-/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_btbus.h:
-
 /home/vincent/pico-sdk/lib/cyw43-driver/firmware/cyw43_btfw_43439.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c:
@@ -4417,11 +5734,59 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c:
 
-/home/vincent/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
+/usr/include/newlib/c++/13.2.1/bits/std_abs.h:
+
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_float/float_math.c:
+
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
+
+/usr/include/newlib/sys/unistd.h:
+
+/usr/include/newlib/sys/times.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
+
+/home/vincent/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdatomic.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_threadsafe_background.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c:
+
+lib/freertos/include/semphr.h:
+
+/usr/include/newlib/machine/setjmp.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h:
 
-/usr/include/newlib/sys/_intsup.h:
+/home/vincent/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c:
+
+lib/freertos/include/projdefs.h:
+
+/home/vincent/pico-sdk/src/common/pico_util/fixed_bitset.c:
 
 /usr/include/newlib/inttypes.h:
 
@@ -4439,13 +5804,13 @@ lib/freertos/portable/ThirdParty/GCC/RP2040/port.c:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_flash/flash.c:
 
+/home/vincent/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
+
+/usr/include/newlib/stdio.h:
+
 /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_uart/uart.c:
-
-/home/vincent/pico-sdk/src/common/pico_sync/lock_core.c:
-
-/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_internal.h:
 
 /home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_ll.h:
 
@@ -4461,15 +5826,15 @@ lib/freertos/include/portable.h:
 
 lib/freertos/include/queue.h:
 
-/usr/include/newlib/c++/13.2.1/bits/std_abs.h:
-
 /usr/include/newlib/setjmp.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h:
 
 /home/vincent/pico-sdk/lib/cyw43-driver/firmware/wifi_nvram_43439.h:
 
-/home/vincent/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
+/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h:
+
+/home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
 
 /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h:
 
@@ -4481,9 +5846,17 @@ lib/freertos/include/FreeRTOS.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h:
 
+/home/vincent/pico-sdk/src/rp2_common/pico_cyw43_driver/include/pico/cyw43_driver.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_base.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
+
 /home/vincent/pico-sdk/src/rp2_common/pico_cyw43_driver/include/cyw43_configport.h:
 
-/usr/include/newlib/sys/stat.h:
+/home/vincent/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/common.c:
 
@@ -4497,15 +5870,23 @@ lib/freertos/include/croutine.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h:
 
+/home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/tusb_config.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
+
 /home/vincent/pico-sdk/src/rp2_common/hardware_exception/include/hardware/exception.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_qspi.h:
 
 /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sync.h:
 
-/home/vincent/pico-sdk/src/common/hardware_claim/claim.c:
+/home/vincent/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c:
 
-/home/vincent/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
+/home/vincent/pico-sdk/src/rp2_common/hardware_rtc/rtc.c:
 
 /home/vincent/pico-sdk/src/common/pico_sync/include/pico/sem.h:
 
@@ -4513,17 +5894,13 @@ lib/freertos/include/croutine.h:
 
 /usr/include/newlib/sys/sched.h:
 
-/home/vincent/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
-
 /home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c:
 
 /home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c:
 
 /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/config.h:
 
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h:
-
-/home/vincent/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
+/home/vincent/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom_constants.h:
 
@@ -4531,13 +5908,17 @@ lib/freertos/include/croutine.h:
 
 /usr/include/newlib/sys/_locale.h:
 
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h:
-
 /usr/include/newlib/strings.h:
 
 /usr/include/newlib/_newlib_version.h:
 
-/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43.h:
+/home/vincent/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c:
+
+lib/freertos/event_groups.c:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
 
 /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h:
 
@@ -4545,15 +5926,37 @@ lib/freertos/portable/ThirdParty/GCC/RP2040/include/portmacro.h:
 
 lib/freertos/portable/ThirdParty/GCC/RP2040/include/rp2040_config.h:
 
+/home/vincent/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
+
+/home/vincent/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
+
 lib/freertos/include/mpu_wrappers.h:
 
+/home/vincent/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
+
+/usr/include/newlib/unistd.h:
+
+/home/vincent/pico-sdk/src/boards/include/boards/pico_w.h:
+
 include/FreeRTOSConfig.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c:
 
 lib/freertos/include/stream_buffer.h:
 
 /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
 lib/freertos/portable/ThirdParty/GCC/RP2040/include/freertos_sdk_config.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_clib_interface/cxa_guard.c:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h:
+
+/usr/include/newlib/sys/stat.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c:
 
 /home/vincent/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h:
 
@@ -4581,13 +5984,7 @@ generated/pico_base/pico/version.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h:
 
-/home/vincent/pico-sdk/src/rp2_common/hardware_rtc/rtc.c:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c:
-
 /usr/include/newlib/sys/stdio.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c:
 
 lib/freertos/queue.c:
 
@@ -4617,11 +6014,11 @@ include/FreeRTOSConfig_examples_common.h:
 
 /usr/include/newlib/sys/_types.h:
 
+/home/vincent/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c:
+
 /home/vincent/pico-sdk/src/rp2_common/pico_runtime/runtime.c:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_timer/timer.c:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c:
 
@@ -4630,6 +6027,8 @@ include/FreeRTOSConfig_examples_common.h:
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h:
 
 /usr/include/newlib/sys/lock.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/tusb.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h:
 
@@ -4643,11 +6042,15 @@ lib/freertos/include/list.h:
 
 /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/types.h:
 
-lib/freertos/include/projdefs.h:
+/home/vincent/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
 
-/home/vincent/pico-sdk/src/common/pico_util/fixed_bitset.c:
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_mcu.h:
 
 lib/freertos/include/task.h:
+
+/usr/include/newlib/sys/_intsup.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
 
 /usr/include/newlib/sys/cdefs.h:
 
@@ -4659,19 +6062,11 @@ lib/freertos/include/task.h:
 
 /home/vincent/pico-sdk/src/common/pico_base_headers/include/pico/error.h:
 
-/home/vincent/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
-
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h:
 
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
+/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
 
-/home/vincent/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
-
-/home/vincent/pico-sdk/src/common/pico_sync/sem.c:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_flash/flash.c:
-
-/home/vincent/pico-sdk/src/common/pico_sync/critical_section.c:
+/home/vincent/pico-sdk/src/rp2_common/pico_runtime_init/include/pico/runtime_init.h:
 
 /home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h:
 
@@ -4681,19 +6076,25 @@ lib/freertos/include/task.h:
 
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdarg.h:
 
+/home/vincent/pico-sdk/lib/tinyusb/src/device/dcd.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb_dpram.h:
+
 /home/vincent/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_platform_common/include/pico/platform/common.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_freertos.h:
+
+lib/freertos/portable/MemMang/heap_4.c:
 
 /home/vincent/pico-sdk/src/rp2040/boot_stage2/include/boot_stage2/config.h:
 
 /usr/include/newlib/assert.h:
 
 /home/vincent/pico-sdk/src/common/pico_util/queue.c:
-
-lib/freertos/event_groups.c:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_async_context/async_context_freertos.c:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
 
@@ -4707,12 +6108,6 @@ lib/freertos/event_groups.c:
 
 /usr/include/newlib/sys/config.h:
 
-/home/vincent/pico-sdk/src/common/pico_util/include/pico/util/queue.h:
-
-/home/vincent/pico-sdk/src/rp2_common/hardware_boot_lock/include/hardware/boot_lock.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h:
-
 /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h:
 
 lib/freertos/tasks.c:
@@ -4723,21 +6118,21 @@ lib/freertos/tasks.c:
 
 lib/freertos/include/stack_macros.h:
 
+/home/vincent/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
+
 /usr/include/newlib/string.h:
 
-/home/vincent/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot_constants.h:
-
 /usr/include/newlib/newlib.h:
-
-/home/vincent/pico-sdk/src/common/pico_sync/mutex.c:
-
-lib/freertos/include/event_groups.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_malloc/malloc.c:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
 
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_compiler.h:
+
 lib/freertos/include/timers.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c:
 
 /usr/include/newlib/alloca.h:
 
@@ -4751,6 +6146,10 @@ lib/freertos/list.c:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h:
 
+/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_internal.h:
+
+/home/vincent/pico-sdk/src/common/pico_sync/lock_core.c:
+
 generated/pico_base/pico/config_autogen.h:
 
 lib/freertos/timers.c:
@@ -4761,9 +6160,105 @@ lib/freertos/timers.c:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pio.h:
 
-/home/vincent/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c:
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c:
+
+/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_btbus.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
+
+/home/vincent/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/code.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_types.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_verify.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.h:
+
+/usr/include/newlib/machine/endian.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/tusb_option.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
+
+/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/osal/osal.h:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/video/video_device.c:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_qspi.h:
+
+/usr/lib/gcc/arm-none-eabi/13.2.1/include/float.h:
+
+/usr/include/newlib/c++/13.2.1/cstdlib:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_cxx_options/include/pico/cxx_options.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/device/usbd.c:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/device/usbd_control.c:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/usr/include/newlib/sys/_timeval.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_flash/flash.c:
+
+/home/vincent/pico-sdk/src/common/pico_sync/critical_section.c:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/tusb.c:
+
+/home/vincent/pico-sdk/src/common/hardware_claim/claim.c:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_ticks/include/hardware/ticks.h:
+
+/home/vincent/pico-sdk/src/common/hardware_claim/include/hardware/claim.h:
+
+lib/freertos/include/event_groups.h:
+
+/home/vincent/pico-sdk/src/common/pico_sync/mutex.c:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h:
+
+/home/vincent/pico-sdk/src/common/pico_sync/sem.c:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_runtime/include/pico/runtime.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h:
 
 /home/vincent/pico-sdk/src/common/pico_time/time.c:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_usb_reset/include/pico/usb_reset.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h:
 
@@ -4775,35 +6270,19 @@ lib/freertos/timers.c:
 
 lib/unity/src/unity.h:
 
+/home/vincent/pico-sdk/lib/tinyusb/src/osal/osal_pico.h:
+
 /home/vincent/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/vreg_and_chip_reset.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h:
 
 /home/vincent/pico-sdk/src/common/pico_util/datetime.c:
 
-/home/vincent/pico-sdk/src/rp2_common/pico_float/float_math.c:
-
-/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
-
 /home/vincent/pico-sdk/src/common/pico_util/include/pico/util/datetime.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h:
 
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/psm.h:
-
 /usr/include/newlib/machine/_endian.h:
-
-/usr/include/newlib/machine/endian.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_cyw43_driver/include/pico/cyw43_driver.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_base.h:
 
 /usr/include/newlib/machine/time.h:
 
@@ -4811,17 +6290,13 @@ lib/unity/src/unity.h:
 
 /usr/include/newlib/sys/_pthreadtypes.h:
 
-/home/vincent/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
-
-/usr/include/newlib/sys/_timeval.h:
+/home/vincent/pico-sdk/lib/tinyusb/src/common/tusb_private.h:
 
 /usr/include/newlib/sys/select.h:
 
 /usr/include/newlib/c++/13.2.1/pstl/pstl_config.h:
 
 /usr/include/newlib/sys/timespec.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_clib_interface/cxa_guard.c:
 
 /usr/include/newlib/sys/types.h:
 
@@ -4839,19 +6314,31 @@ lib/unity/src/unity.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
 
-/home/vincent/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
+/home/vincent/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c:
 
-/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h:
+/home/vincent/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_pll/include/hardware/pll.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_dma/dma.c:
 
-/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_qspi.h:
+/usr/include/newlib/c++/13.2.1/cassert:
+
+/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_exception/exception.c:
+
+/home/vincent/pico-sdk/src/rp2_common/pico_thread_local/include/pico/thread_local.h:
+
+/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
+
+/home/vincent/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xip.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_qspi.h:
 
 /home/vincent/pico-sdk/src/rp2_common/boot_bootrom_headers/include/boot/bootrom_constants.h:
 
@@ -4863,11 +6350,17 @@ lib/unity/src/unity.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
 
-/home/vincent/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
-
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
+
+/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
+
+/home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h:
+
+/home/vincent/pico-sdk/src/rp2_common/hardware_pio/pio.c:
 
 /usr/include/newlib/machine/_time.h:
 
@@ -4881,14 +6374,6 @@ lib/unity/src/unity.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
 
-/home/vincent/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_double/double_math.c:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h:
-
 /home/vincent/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h:
 
 /home/vincent/pico-sdk/src/rp2_common/pico_stdio/stdio.c:
@@ -4901,19 +6386,11 @@ lib/unity/src/unity.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
 
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/stdatomic.h:
-
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
-
-/usr/include/newlib/machine/setjmp.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c:
-
-/home/vincent/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
 
 /home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h:
 
@@ -4924,71 +6401,3 @@ lib/unity/src/unity.h:
 /home/vincent/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom/lock.h:
 
 /home/vincent/pico-sdk/src/rp2_common/hardware_vreg/vreg.c:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/vreg_and_chip_reset.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/usb.h:
-
-/home/vincent/pico-sdk/src/common/pico_base_headers/include/pico.h:
-
-/home/vincent/pico-sdk/src/rp2_common/hardware_pio/pio.c:
-
-/home/vincent/pico-sdk/src/rp2_common/hardware_vreg/include/hardware/vreg.h:
-
-/home/vincent/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/xosc.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/xosc.h:
-
-/home/vincent/pico-sdk/src/common/pico_sync/include/pico/mutex.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context.h:
-
-lib/freertos/include/semphr.h:
-
-lib/freertos/portable/MemMang/heap_4.c:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_freertos.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_async_context/include/pico/async_context_threadsafe_background.h:
-
-/usr/include/newlib/stdio.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_atomic/atomic.c:
-
-/home/vincent/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_cxx_options/include/pico/cxx_options.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h:
-
-/usr/include/newlib/sys/times.h:
-
-/usr/include/newlib/sys/unistd.h:
-
-/usr/include/newlib/unistd.h:
-
-/home/vincent/pico-sdk/src/boards/include/boards/pico_w.h:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
-
-/home/vincent/pico-sdk/src/rp2_common/pico_thread_local/include/pico/thread_local.h:
-
-/home/vincent/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/ssi.h:
-
-/home/vincent/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
-
-/usr/include/newlib/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
-
-/home/vincent/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c:
-
-/home/vincent/pico-sdk/src/rp2_common/hardware_exception/exception.c:
-
-/usr/include/newlib/c++/13.2.1/cassert:
-
-/usr/lib/gcc/arm-none-eabi/13.2.1/include/float.h:
-
-/usr/include/newlib/c++/13.2.1/cstdlib:
