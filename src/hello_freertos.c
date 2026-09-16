@@ -23,21 +23,27 @@ bool on = false;
 
 void blink_task(__unused void *params) {
     hard_assert(cyw43_arch_init() == PICO_OK);
-    while (true) {
-        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, on);
-        if (count++ % 11) on = !on;
+    while (true) {      //runs forever blinking an LED
+        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, on); 
+        if (count++ % 11) on = !on;     //if the counter is divisible by 11, then turn off the LED to start the next blinky
         vTaskDelay(500);
     }
 }
 
 void main_task(__unused void *params) {
+    /*Creates another task to blink an LED and splits that off
+    */
     xTaskCreate(blink_task, "BlinkThread",
                 BLINK_TASK_STACK_SIZE, NULL, BLINK_TASK_PRIORITY, NULL);
+
+    /*Does some kind of ASCII manipulation, taking a character input and outputting it back to stdout 
+    after some unspecified processing occurs
+    */
     char c;
     while(c = getchar()) {
-        if (c <= 'z' && c >= 'a') putchar(c - 32);
-        else if (c >= 'A' && c <= 'Z') putchar(c + 32);
-        else putchar(c);
+        if (c <= 'z' && c >= 'a') putchar(c - 32);      //if the char is between lowercase a and lowercase z, decrement ASCII code by 32
+        else if (c >= 'A' && c <= 'Z') putchar(c + 32); //if it's between uppercase A and Z, increment ASCII code by 32
+        else putchar(c);                                //if it's not an alphabetical character, don't modify
     }
 }
 
@@ -47,6 +53,9 @@ int main( void )
     const char *rtos_name;
     rtos_name = "FreeRTOS";
     TaskHandle_t task;
+
+    /*this creates a new thread running the function "main_task". 
+    It sets up a maximum stack, passes parameters, sets the task priority, and sets a pointer to the created task*/
     xTaskCreate(main_task, "MainThread",
                 MAIN_TASK_STACK_SIZE, NULL, MAIN_TASK_PRIORITY, &task);
     vTaskStartScheduler();
