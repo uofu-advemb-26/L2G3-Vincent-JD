@@ -27,6 +27,28 @@ void test_LED(void) {
     // TEST_ASSERT_MESSAGE(gpio == 1, "LED successfully turned on");
 }
 
+/**REMOVE AFTER CONFIRMING; THIS IS A TEST FROM THE REFERENCE IMPLEMENTATION */
+
+void test_blinking(void)
+{
+    int count = 0;
+    bool on = 0;
+    cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 0);
+    for (int i = 0; i < 200; i += 1) {
+        int curr_count = count;
+        bool next_on = do_blink(on, &count);
+        int gpio = cyw43_arch_gpio_get(CYW43_WL_GPIO_LED_PIN);
+        TEST_ASSERT_EQUAL_MESSAGE(gpio, on, "GPIO should be set to the state of 'on' variable.");
+        TEST_ASSERT_EQUAL_MESSAGE(count, curr_count +1, "Always increment the count");
+        if ((i+1) % 11) {
+            TEST_ASSERT_NOT_EQUAL_MESSAGE(on, next_on, "Should toggle when count is not a multiple of 11.");
+        } else {
+            TEST_ASSERT_EQUAL_MESSAGE(on, next_on, "Should not toggle otherwise.");
+        }
+        on = next_on;
+    }
+}
+
 void test_variable_assignment()
 {
     int x = 1;
@@ -48,17 +70,13 @@ void blank_test(void) {
 int main (void)
 {
     stdio_init_all();
-    while (1) {
-        sleep_ms(5000); // Give time for TTY to attach.
-        printf("Start tests\n");
-        UNITY_BEGIN();
-        RUN_TEST(test_variable_assignment);
-        RUN_TEST(test_multiplication);
-        fflush(stdout);
-        printf("End Tests\n");
-        RUN_TEST(blank_test);
-        RUN_TEST(test_LED);
-        // sleep_ms(5000);
-        UNITY_END();
+    hard_assert(cyw43_arch_init() == PICO_OK);
+    while(1) {
+	sleep_ms(5000); // Give time for TTY to attach.
+	printf("Start tests\n");
+	UNITY_BEGIN();
+	// RUN_TEST(test_change_case);
+	RUN_TEST(test_blinking);
+	UNITY_END();
     }
 }

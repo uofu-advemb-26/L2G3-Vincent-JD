@@ -1,14 +1,14 @@
-#ifndef _HELPERS_H_
-#define _HELPERS_H_
+#pragma once
 
-#include "FreeRTOS.h"
-#include "task.h"
-
-//set the priority and stack size of the blink task
+#define MAIN_TASK_PRIORITY      ( tskIDLE_PRIORITY + 1UL )
 #define BLINK_TASK_PRIORITY     ( tskIDLE_PRIORITY + 2UL )
+#define MAIN_TASK_STACK_SIZE configMINIMAL_STACK_SIZE
 #define BLINK_TASK_STACK_SIZE configMINIMAL_STACK_SIZE
 
-void led_set(bool state);
-void led_toggle(void);
+void blink_task(void *params);
 
-#endif
+void main_task(void *params);
+
+char switch_case(char c);
+
+bool do_blink(bool on, int *count);
