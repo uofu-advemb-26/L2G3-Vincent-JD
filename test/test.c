@@ -4,6 +4,7 @@
 #include <unity.h>
 #include "unity_config.h"
 #include "pico/cyw43_arch.h"
+#include "helpers.h"
 
 void setUp(void) {}
 
@@ -13,7 +14,9 @@ void test_LED(void) {
     printf("Starting LED test\n");
     printf("Writing LED to state 0\n");
     // cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, false); 
-    cyw43_gpio_set(&cyw43_state, CYW43_WL_GPIO_LED_PIN, false);
+    // cyw43_gpio_set(&cyw43_state, CYW43_WL_GPIO_LED_PIN, false);
+    led_set(false);
+
     printf("Completed writing LED state 0\n");
     // TEST_ASSERT_TRUE_MESSAGE(cyw43_arch_gpio_get(CYW43_WL_GPIO_LED_PIN) == 0, "LED confirmed turned off");
     // printf("Attempting to force LED off\n");

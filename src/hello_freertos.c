@@ -8,6 +8,7 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
+#include "helpers.h"
 
 #include "pico/stdlib.h"
 #include "pico/multicore.h"
@@ -17,9 +18,8 @@ int count = 0;
 bool on = false;
 
 #define MAIN_TASK_PRIORITY      ( tskIDLE_PRIORITY + 1UL )
-#define BLINK_TASK_PRIORITY     ( tskIDLE_PRIORITY + 2UL )
 #define MAIN_TASK_STACK_SIZE configMINIMAL_STACK_SIZE
-#define BLINK_TASK_STACK_SIZE configMINIMAL_STACK_SIZE
+
 
 /**a separate function in which we do the LED blinking. it has been set up
  * such that the parameters from the old code can be tuned by hand.
@@ -34,7 +34,8 @@ bool on = false;
 void blink_task(__unused void *params) {
     hard_assert(cyw43_arch_init() == PICO_OK);
     while (true) {      //runs forever blinking an LED
-        cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, on); 
+        // cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, on); 
+        led_set(on);
         if (count++ % 11) on = !on;     //if the counter is divisible by 11, then turn off the LED to start the next blinky
         vTaskDelay(500);
         
