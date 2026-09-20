@@ -9,6 +9,6 @@
 #define BLINK_TASK_STACK_SIZE configMINIMAL_STACK_SIZE
 
 void led_set(bool state);
-void led_toggle(void);
+bool led_toggle(bool baseState, int *count, int divisibleBy);
 
 #endif
