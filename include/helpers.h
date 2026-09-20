@@ -3,6 +3,7 @@
 
 #include "FreeRTOS.h"
 #include "task.h"
+#include "pico/cyw43_arch.h"
 
 //set the priority and stack size of the blink task
 #define BLINK_TASK_PRIORITY     ( tskIDLE_PRIORITY + 2UL )
