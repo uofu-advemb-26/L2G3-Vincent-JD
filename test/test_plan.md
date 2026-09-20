@@ -17,25 +17,7 @@ For reasons called "We keep forgetting to solder the debug headers somehow", thi
 # Expected behavior
 - When connected to the serial monitor, the Pi Pico should print out debug messages showing the execution of code on a functional step-by-step basis. 
 
-## Steps 
-
-1. Observe the Pico's onboard LED.
-    - Expected Result: it turns on and off following the pattern `SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, LONG_OFF, SHORT_ON, ...`
-2. Starting right after a `LONG_OFF`, use a stopwatch to time the 10 `SHORT_OFF`/`SHORT_ON` transitions up to (but not including) the next `LONG_OFF`, then divide the total by 10. (A single 0.5 second interval is too fast to time by hand reliably; averaging over 10 cycles cancels out reaction-time error.)
-    - Expected Result: the average duration per transition is approximately 0.5 seconds.
-3. Time the duration from the start of one `LONG_OFF` to the start of the next.
-    - Expected Result: approximately 5.5 seconds (10 short transitions plus one `LONG_OFF`).
-4. Compare the length of `LONG_OFF` to a single `SHORT_OFF`/`SHORT_ON` by eye.
-    - Expected Result: `LONG_OFF` is noticeably longer than a single short interval — roughly twice its length.
-5. Type characters in the terminal connection to the Pico.
-    - Expected Result: The LED continues to flash with the same pattern at the same rate.
-6. Type a lowercase letter, e.g. `a`, in the terminal.
-    - Expected Result: The corresponding uppercase letter, `A`, is echoed back.
-7. Type an uppercase letter, e.g. `A`, in the terminal.
-    - Expected Result: The corresponding lowercase letter, `a`, is echoed back.
-8. Type the boundary letters `a`, `z`, `A`, and `Z` one at a time.
-    - Expected Result: Each is echoed back case-swapped (`A`, `Z`, `a`, `z` respectively) with no off-by-one errors at the ends of the alphabet.
-9. Type a non-alphabetic character, e.g. `1`, `!`, or a space, in the terminal.
-    - Expected Result: The same character is echoed back unchanged.
-10. Type several characters in a row without pausing.
-    - Expected Result: Each character is echoed individually as it is typed; the program does not wait for Enter/newline before responding.
+## Test plan steps
+1. Document the functionality of code that isn't self-evident in function.
+2. With the documentation complete, start writing helper functions that "clone" the functionality of the documented code alongside associated tests
+3. Once the tests are confirmed passing, integrate the helper function code back into the main codebase and repeat with the next portion of undocumented code
