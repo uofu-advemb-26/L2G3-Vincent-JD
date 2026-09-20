@@ -11,10 +11,14 @@ For reasons called "We keep forgetting to solder the debug headers somehow", thi
     - If need be, reboot the pico using picotool with ``picotool reboot -f``
 - Utilizing the Serial Monitor in VSCode, connect to the pico using a baud rate of 115200. The COM port that the pico shows as will be some variation on /dev/ttyACMx, where x is a positive integer.
 
+# Exercising the system
+- All of the tests written are automated to minimize the chance of human error in interpreting test results. As such, the only "exercise" required to be performed is to plug the pico in over USB and observe the running tests.
+
 # Expected behavior
-- When connected to the serial monitor, the Pi Pico should print out debug messages showing the execution of code on a functional step-by-step basis. At current however, the act of even toggling the onboard LED appears to result in a hard crash of our tests.
+- When connected to the serial monitor, the Pi Pico should print out debug messages showing the execution of code on a functional step-by-step basis. 
 
 ## Steps 
+
 1. Observe the Pico's onboard LED.
     - Expected Result: it turns on and off following the pattern `SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, SHORT_OFF, SHORT_ON, LONG_OFF, SHORT_ON, ...`
 2. Starting right after a `LONG_OFF`, use a stopwatch to time the 10 `SHORT_OFF`/`SHORT_ON` transitions up to (but not including) the next `LONG_OFF`, then divide the total by 10. (A single 0.5 second interval is too fast to time by hand reliably; averaging over 10 cycles cancels out reaction-time error.)

@@ -50,6 +50,42 @@ void blank_test(void) {
     printf("This is a test. If you see this message then the blank test has succeeded.\n");
 }
 
+/**
+ * Tests character conversion
+ */
+void char_test(void) {
+    char convertedChar;
+
+    //non-alphabeticals
+    for(int i = 0; i < 65; i++) {
+        convertedChar = debug_char_convert(i);
+        TEST_ASSERT_EQUAL_CHAR_MESSAGE(i, convertedChar, "Character conversion failure! Character should remain the same!");
+    }
+    for(int i = 91; i < 97; i++) {
+        convertedChar = debug_char_convert(i);
+        TEST_ASSERT_EQUAL_CHAR_MESSAGE(i, convertedChar, "Character conversion failure! Character should remain the same!");
+    }
+    for(int i = 123; i <= 127; i++) {
+        convertedChar = debug_char_convert(i);
+        TEST_ASSERT_EQUAL_CHAR_MESSAGE(i, convertedChar, "Character conversion failure! Character should remain the same!");
+    }
+
+    //capital letters A-Z
+    for(int i = 65; i <= 90; i++) {
+        convertedChar = debug_char_convert(i);
+        TEST_ASSERT_EQUAL_CHAR_MESSAGE(i + 32, convertedChar, "Character conversion failure! Uppercase should have been converted to lowercase!");
+    }
+
+    //lowercase letters A-Z
+    for(int i = 97; i <= 122; i++) {
+        // printf("char: %c    ", i);
+        convertedChar = char_convert(i);
+        // printf("converted char: %c  ", convertedChar);
+        TEST_ASSERT_EQUAL_CHAR_MESSAGE(i - 32, convertedChar, "Character conversion failure! Lowercase should have been converted to uppercase!");
+    }
+    printf("\n");   //so that the "test pass" stuff appears on a separate line
+}
+
 int main (void)
 {
     stdio_init_all();
@@ -64,6 +100,7 @@ int main (void)
         RUN_TEST(test_LED_on);
         RUN_TEST(test_LED_off);
         RUN_TEST(test_LED_toggle);
+        RUN_TEST(char_test);
         // sleep_ms(5000);
         UNITY_END();
     }

@@ -23,8 +23,9 @@ bool on = false;
 void blink_task(__unused void *params) {
     hard_assert(cyw43_arch_init() == PICO_OK);
     while (true) {      //runs forever blinking an LED
-        led_set(on);
-        if (count++ % 11) on = !on;     //if the counter is divisible by 11, then turn off the LED to start the next blinky
+        led_toggle(on, &count, 11);     //replaces the two lines of code below with the custom helper function
+        // led_set(on);
+        // if (count++ % 11) on = !on;     //if the counter is divisible by 11, then turn off the LED to start the next blinky
         vTaskDelay(500);
     }
 }
@@ -36,13 +37,11 @@ void main_task(__unused void *params) {
                 BLINK_TASK_STACK_SIZE, NULL, BLINK_TASK_PRIORITY, NULL);
 
     /*Does some kind of ASCII manipulation, taking a character input and outputting it back to stdout 
-    after some unspecified processing occurs
+    after modifying the inputted character
     */
     char c;
     while(c = getchar()) {
-        if (c <= 'z' && c >= 'a') putchar(c - 32);      //if the char is between lowercase a and lowercase z, decrement ASCII code by 32
-        else if (c >= 'A' && c <= 'Z') putchar(c + 32); //if it's between uppercase A and Z, increment ASCII code by 32
-        else putchar(c);                                //if it's not an alphabetical character, don't modify
+        putchar(char_convert(c));   //replaced with helper function char_convert
     }
 }
 

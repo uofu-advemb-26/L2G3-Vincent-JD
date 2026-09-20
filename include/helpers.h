@@ -10,5 +10,7 @@
 
 void led_set(bool state);
 bool led_toggle(bool baseState, int *count, int divisibleBy);
+char char_convert(char inChar);
+char debug_char_convert(char inChar);
 
 #endif
