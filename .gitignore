@@ -1,8 +1,8 @@
-Testing
-build
-log
-
-*.log.*
-*-asciinema
-*.pid
-*-profile
+CMakeCache.txt
+/build
+*.elf
+*.bin
+*.dis
+*.map
+*.hex
+*.uf2
